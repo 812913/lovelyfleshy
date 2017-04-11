@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive layout：响应式布局-->
+    <link rel="stylesheet" type="text/css" href="css/normal.css">
+    <link rel="stylesheet" type="text/css" href="css/fabu.css">
+    <title>盆器——后台</title>
+</head>
+<body>
+
+<!--所有内容-->
+<div style="max-width: 1400px;margin: 0 auto;">
+<!--主体开始-->
+<div class="issuemain">
+      <div class="row1">
+          <div class="col-12 tit">
+              <img  src="img/fabu.png"/>
+              <span>盆器-后台</span>
+          </div>
+      </div>
+
+    <div class="row2  content">
+        <div class="col-2 blank"></div>
+        <div class="col-7 formmain">
+            <div class="row3">
+                <div class="col-12 upload">
+                    <img src="img/upload.png"/>
+                </div>
+                <div class="col-12 table">
+                    <form name="form1" action="" method="post">
+                        <div class="col-3 span">
+                            <span>盆器名称</span>
+                        </div>
+                        <div class="col-9">
+                            <input id="text1" onclick="document.getElementById('text1').style.backgroundColor='#fff'" class="input1" type="text" size="25" placeholder="少于25字"/>
+                        </div>
+                    </form>
+                    <div id="textarea">
+                        <div class="col-3 span">
+                            <span>盆器详情</span>
+                        </div>
+                        <div class="col-9">
+                            <textarea id="text2" onclick="document.getElementById('text2').style.backgroundColor='#fff'" class="input1" rows="5" placeholder="盆器的制作工艺、尺寸说明、摆放场景"></textarea>
+                        </div>
+                    </div>
+                    <form name="form1">
+                        <div class="col-3 span">
+                            <span>价格</span>
+                        </div>
+                        <div class="col-9">
+                            <input  id="text4" onclick="document.getElementById('text4').style.backgroundColor='#fff'" class="input2" type="text"  placeholder="&yen; "/>
+                        </div>
+                        <div class="col-3 span">
+                            <span>盆器材质</span>
+                        </div>
+                        <div class="col-9">
+                            <select>
+                                <option>树脂</option>
+                                <option>玻璃</option>
+                                <option>陶瓷</option>
+                                <option>木料</option>
+                            </select>
+                        </div>
+                    </form>
+                    <div class="submit">
+                        <button value="agree">发布</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{box-sizing: border-box;
+    font-family: '微软雅黑','宋体','华文宋体';
+}
+html{overflow-x: hidden;}
+.col-3,h1{margin: 0;}
+/*手机*/
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+   /* border: 1px solid red;*/
+    padding: 10px;
+}
+
+/*清除浮动*/
+.row:after{
+
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.center{margin: 0 auto;}
+body{width:100%;}
+/*平板*/
+@media only screen and  (min-width: 650px) {
+    .col-1-n {width: 8.33%;}
+    .col-2-n {width: 16.66%;}
+    .col-3-n {width: 25%;}
+    .col-4-n {width: 33.33%;}
+    .col-5-n {width: 41.66%;}
+    .col-6-n {width: 50%;}
+    .col-7-n {width: 58.33%;}
+    .col-8-n {width: 66.66%;}
+    .col-9-n {width: 75%;}
+    .col-10-n {width: 83.33%;}
+    .col-11-n {width: 91.66%;}
+    .col-12-n {width: 100%;}
+}
+
+/*电脑*/
+@media only screen and (min-width: 770px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
